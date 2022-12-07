@@ -6,6 +6,9 @@ nav ul {
 nav ul li a {
   margin-right: 30px;
 }
+nav ul li a:hover {
+  color: blue !important;
+}
 nav ul li input {
   border-radius: 20px;
 }
@@ -13,6 +16,7 @@ nav .right-buttons {
   position: relative;
   left: 18%;
   top: -5px;
+
 }
 nav .right-buttons li a {
   margin-right: 0 !important;
@@ -22,6 +26,9 @@ nav .right-buttons button {
   background-color: rgba(227, 223, 223, 0.301);
   border: transparent;
   border-radius: 2px;
+}
+nav .right-buttons button:hover{
+  color: blue !important;
 }
 nav .right-buttons .sign {
   border: 0.4px solid blue;

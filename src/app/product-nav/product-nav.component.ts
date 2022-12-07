@@ -8,7 +8,7 @@ import { AllProductsService } from '../allproducts.service';
   styleUrls: ['./product-nav.component.css']
 })
 export class ProductNavComponent implements OnInit{
-  quantity: any = 1;
+  quantity: any = 0;
   product: any = {}
 
  constructor(private route: ActivatedRoute, public _AllProducts: AllProductsService) {}

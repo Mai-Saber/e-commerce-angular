@@ -50,7 +50,9 @@
               <button type="button" class="btn btn-outline-primary">
                 My cart
               </button>
-              <span class="circle"> {{ cartNumber }}</span>
+              <span class="circle" [hidden]="cartNumber === '0'">
+                {{ cartNumber }}</span
+              >
             </a>
           </li>
           <li class="nav-item">

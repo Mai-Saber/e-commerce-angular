@@ -7,8 +7,13 @@
   padding: 20px;
   border-radius: 20px;
 }
+.product-nav .left-part span {
+  display: inline-block;
+  width: 70%;
+  background-color: red;
+}
 .product-nav .left-part img {
-  width: 100px;
+  width: 30%;
 }
 /* right-part */
 .product-nav .right-part {
@@ -16,7 +21,7 @@
   display: flex;
   justify-content: space-between !important;
   position: relative;
-  top: 10px;
+  top: 30px;
 }
 .product-nav .right-part .quantity button {
   border: 1px solid blueviolet;
@@ -43,8 +48,8 @@
 @media (min-width: 100px) and (max-width: 1000px) {
   .product-nav .right-part {
     width: 100% !important;
-
     margin: auto;
+    top: unset;
     text-align: center;
   }
   .product-nav .right-part .quantity {
