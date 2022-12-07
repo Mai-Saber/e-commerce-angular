@@ -1,0 +1,57 @@
+nav ul {
+  position: relative;
+  top: 5px;
+  margin-left: 20px;
+}
+nav ul li a {
+  margin-right: 30px;
+}
+nav ul li input {
+  border-radius: 20px;
+}
+nav .right-buttons {
+  position: relative;
+  left: 18%;
+  top: -5px;
+}
+nav .right-buttons li a {
+  margin-right: 0 !important;
+}
+nav .right-buttons button {
+  box-shadow: 1px 1px 1px 1px rgba(58, 58, 226, 0.496);
+  background-color: rgba(227, 223, 223, 0.301);
+  border: transparent;
+  border-radius: 2px;
+}
+nav .right-buttons .sign {
+  border: 0.4px solid blue;
+}
+
+nav .right-buttons .circle {
+  display: inline-block;
+  width: fit-content;
+  padding: 2px 4px 2px 4px;
+  height: fit-content;
+  border-radius: 50%;
+  background-color: red;
+  position: relative;
+  bottom: 12px;
+  right: 10px;
+  text-align: center;
+}
+nav .right-buttons .user-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid rgb(126, 123, 123);
+}
+@media (min-width: 100px) and (max-width: 991px) {
+  nav ul li input {
+    width: 30%;
+  }
+  nav .right-buttons {
+    position: relative;
+    left: unset;
+    top: unset;
+  }
+}

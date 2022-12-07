@@ -1,0 +1,79 @@
+.all-products .left-part {
+  margin-right: 10px;
+}
+.all-products .left-part div {
+  background-color: rgba(235, 230, 230, 0.598);
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 90%;
+  color: rgba(41, 40, 40, 0.863);
+}
+
+.all-products .left-part div h5 span {
+  float: right;
+  position: relative;
+  bottom: 3px;
+}
+.all-products .left-part div ul li {
+  list-style: none;
+  position: relative;
+  right: 25px;
+  width: 110%;
+}
+/* right-part  */
+.all-products .right-part {
+  position: relative;
+  border: 1px solid rgba(128, 128, 128, 0.492);
+  border-top: transparent;
+  padding: 0 20px 20px 20px;
+  margin-bottom: 20px;
+}
+.all-products .right-part .input-group {
+  width: 100%;
+}
+.all-products .right-part .card {
+  box-sizing: border-box;
+  padding: 8px;
+  height: 95%;
+  margin-bottom: 20px;
+}
+.all-products .right-part .card .img-container {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.all-products .right-part .card img {
+  width: 100%;
+}
+.all-products .right-part .card .product-content {
+  height: 250px;
+  position: relative;
+}
+.all-products .right-part .card .product-content .title {
+  height: 70px;
+  margin-top: 10px;
+  font-size: 18px;
+}
+.all-products .right-part .card .product-content .rating {
+  color: rgb(143, 122, 8);
+  background-color: rgba(213, 208, 208, 0.163);
+  position: relative;
+  top: 4px;
+  font-size: 19px;
+}
+.all-products .right-part .card .product-content .product-footer button {
+  float: right !important;
+  padding: 3px;
+}
+
+.all-products .right-part .card .product-content .product-footer button .heart {
+  position: relative;
+  top: 2px;
+}
+.dropdown-toggle {
+  margin-bottom: 20px;
+  display: inline-block;
+  width: 15% !important;
+  padding-left: 0px;
+}
+/* /////////// */
+

@@ -1,0 +1,96 @@
+.product {
+  background-color: rgba(183, 179, 179, 0.107);
+}
+.product .left-part {
+  background-color: rgba(222, 161, 253, 0.775);
+  height: 100%;
+  position: relative;
+}
+
+.product .left-part a {
+  text-decoration: none;
+}
+.product .left-part button {
+  display: block;
+  position: sticky;
+  top: 5px;
+}
+.product .left-part button .arrow {
+  position: relative;
+  top: 4px;
+}
+.product .left-part img {
+  display: block;
+  margin: auto;
+  align-items: center;
+  border-radius: 50px;
+  width: 80%;
+  height: 50%;
+  position: sticky;
+  top: 50px;
+}
+/* right- part  */
+.product .right-part {
+  padding-top: 30px;
+  padding-left: 50px;
+
+}
+.product .right-part .hot-sale {
+  background-color: red;
+  width: fit-content;
+  color: white;
+  padding: 0 10px;
+  border-radius: 20px;
+}
+.product .right-part .category {
+  color: rgb(70, 231, 70);
+  letter-spacing: 2px;
+  position: relative;
+  margin-right: 20px;
+}
+.product .right-part .category::after {
+  content: "";
+  width: 2px;
+  height: 15px;
+  background-color: rgb(200, 196, 196);
+  position: absolute;
+  top: 4px;
+  right: -7px;
+}
+.product .right-part .description ul li {
+  color: rgb(87, 85, 85);
+}
+.product .right-part .product-images img {
+  width: 20%;
+  margin-right: 20px;
+}
+
+.product .right-part .product-images img:first-child,
+.product .right-part .product-images img:hover {
+  background-color: white;
+  outline: 5px solid rgba(0, 0, 255, 0.147);
+  border-radius: 20px;
+}
+.product .right-part .size {
+  margin: 20px 0;
+}
+.product .right-part .size p span {
+  background-color: rgba(128, 128, 128, 0.471);
+  color: grey;
+  padding: 10px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+.product .right-part .size p span:first-child,
+.product .right-part .size p span:hover {
+  color: white;
+  background-color: rgba(147, 9, 201, 0.714);
+}
+.product .right-part .Ingredients {
+  margin-bottom: 150px !important;
+}
+@media (min-width:100px) and (max-width:1200px) {
+.product .right-part .Ingredients {
+  margin-bottom: 200px !important;
+}
+}
